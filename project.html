@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Header Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+  .icon-container::after{
+    content:f2b5;
+  }
+</style>
+<body>
+
+<!-- Fixed Header Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#"><img src="https://vmeprecast.co.in/wp-content/uploads/2021/10/logo-for-site.png" alt="" style="width: 100px;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <!-- Elements Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="elementsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Elements
+        </a>
+        <div class="dropdown-menu" aria-labelledby="elementsDropdown">
+          <a class="dropdown-item" href="#">Hollow Core Slabs</a>
+          <a class="dropdown-item" href="#">Columns</a>
+          <a class="dropdown-item" href="#">Beams (RCC/PT)</a>
+          <a class="dropdown-item" href="#">Solid Slabs</a>
+          <a class="dropdown-item" href="#">Wall Panels</a>
+          <a class="dropdown-item" href="#">Insulated Wall Panels</a>
+          <a class="dropdown-item" href="#">Pre-stressed Purlins</a>
+        </div>
+      </li>
+      <!-- Building Solutions Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="buildingDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Building Solutions
+        </a>
+        <div class="dropdown-menu" aria-labelledby="buildingDropdown">
+          <!-- Commercial Project Dropdown -->
+          <div class="dropdown-submenu">
+            <a class="dropdown-item dropdown-toggle" href="#">Commercial Project</a>
+            <ul class="dropdown-menu">
+              <a class="dropdown-item" href="#">IT Parks/Office</a>
+              <a class="dropdown-item" href="#">Showrooms</a>
+              <a class="dropdown-item" href="#">Hotels</a>
+              <a class="dropdown-item" href="#">Factories</a>
+            </ul>
+          </div>
+          <a class="dropdown-item" href="#">Industrial Buildings</a>
+          <!-- Modular Solutions Dropdown -->
+          <div class="dropdown-submenu">
+            <a class="dropdown-item dropdown-toggle" href="#">Modular Solutions</a>
+            <ul class="dropdown-menu">
+              <a class="dropdown-item" href="#">Cabins</a>
+              <a class="dropdown-item" href="#">Toilets</a>
+              <a class="dropdown-item" href="#">Utility Module</a>
+              <a class="dropdown-item" href="#">Lift Core</a>
+              <a class="dropdown-item" href="#">Stair Case</a>
+            </ul>
+          </div>
+          <a class="dropdown-item" href="#">Residential</a>
+        </div>
+      </li>
+      <!-- Precast Products Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="precastDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Precast Products
+        </a>
+        <div class="dropdown-menu" aria-labelledby="precastDropdown">
+          <a class="dropdown-item" href="#">Product 1</a>
+          <a class="dropdown-item" href="#">Product 2</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Downloads</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Careers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Video Section -->
+<div class="video-container">
+    <iframe width="100%" height="854" src="https://www.youtube.com/embed/BwM73kN98bc?autoplay=1&mute=1&controls=0&loop=1&playlist=BwM73kN98bc" class="a2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- Overlay Text and Buttons -->
+    <div class="a1">
+     <strong> INDIA'S FIRST FULLY AUTOMATED <br> PRECAST FACTORY.</strong>
+      <div class="video-buttons">
+        <a href="#" class="btn btn-custom">SEE ALL PROJECTS</a>
+        <a href="#" class="btn btn-custom">ABOUT US</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="background-color: #f5f7fa;">
+  <div class="container pt-5">
+    <div class="row">
+      <!-- Video and Italic Text Section -->
+      <div class="col-lg-6 col-md-6 col-sm-12 order-last order-md-first">
+        <!-- Video -->
+        <div class="video-container mb-4 mt-5">
+          <iframe width="100%" height="305" 
+          src="https://www.youtube.com/embed/fVXhcoTC7WI?autoplay=1&mute=1&controls=0&loop=1&playlist=fVXhcoTC7WI" class="v1"
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen>
+      </iframe>
+      
+        </div>
+        <!-- Italic Text with Border-Left -->
+        <p class="italic-text">
+          VME Precast uses cutting-edge technology to create precast concrete precisely cast in a controlled environment and properly cured. The VME Precast plant meets international production standards and safety norms.
+        </p>
+      </div>
+
+      <!-- About Us Section -->
+      <div class="col-lg-6 col-md-6 col-sm-12 order-first order-md-second  about-section ">
+        <!-- About Us Heading with Border-Bottom -->
+         <h5>ABOUT US</h5>
+        <h2 style="font-size: 40px; color: #000000CC;">ABOUT VME <span class="wa">PRE</span>CAST</h2>
+        <p class="about-text">
+          VME Precast is a diversified unit of the VME Group which is primarily involved in planning, execution and transfer of specialised projects in the field of construction like road overbridges, railway bridges and such other structures, besides highway enhancement.
+        </p>
+        <p class="about-text" style="padding-top: 15px;">
+          VME Precast has set up India’s first state-of-the-art precast plant in Oragadam, one of the fastest growing industrial centres. Backed by Finnish expertise, VME Precast’s in-house structural designing team takes up turn-key projects right from the structural design stage right up to the erection of precast elements.
+        </p>
+        <a href="#" class="see-more-btn">
+           See More <i  class="fas fa-play-
+           circle"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <p class="l">Services</p>
+  <div class="l1">
+    <h3 class="l2">...</h3>
+    <h1>___</h1>
+  </div>
+  <p class="l3">Modernize your rounded icon box with rounded border style. This is one of the best icon style for your WordPress site.</p>
+  <div class="container mt-5" style="margin-top:5% ;">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="card custom-card">
+          <div class="card-body">
+            <h1 class="icon-container"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-trophy b1" viewBox="0 0 16 16">
+              <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935M3.504 1q.01.775.056 1.469c.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.5.5 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667q.045-.694.056-1.469z"/>
+            </svg></h1>
+            <h6 style="text-align: center;">Elements</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="card custom-card">
+          <div class="card-body">
+            <h1 class="icon-container"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+              <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
+            </svg></h1>
+            <h6 style="text-align: center;">Buliding Solutions</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="card custom-card">
+          <div class="card-body">
+            <h1 class="icon-container"><i class="fa-light fa-handshake"></i></h1>
+            <h6 style="text-align: center;">
+              Precast Products</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section style="background-color: #001659; margin-top: 100px;">
+    <div class="container mt-5 pt-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 order-last order-md-first">
+          <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="jaat">
+          <div style="padding-top: 280px;  padding-left: 20px; height: 50px;">
+          <h5 style="background-color: #001659; color: white; padding: 15px 20px; width: 80%; border-left: 4px solid #ff6900;">USER FRIENDLY</h5>
+          <button class="z4">More <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="jaat1">
+          <div style="padding-top: 280px;  padding-left: 20px; height: 50px;">
+            <h5 style="background-color: #001659; color: white; padding: 15px 20px; width: 85%; border-left: 4px solid #ff6900;">EASY WASHABLE</h5>
+            <button class="z4">More <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 order-first order-md-last">
+      <p class="z1">NEW PRODUCT</p>
+      <h1 class="z2">READY MADE PRECAST TOILETS</h1>
+      <button class="z3" type="button">EXPLORE NOW <i class="fa-solid fa-arrow-right"></i>
+      </button>
+      </div>
+    </div>
+  </section>
+  <p class="l">Benefits & Advantages
+  </p>
+  <div class="l1">
+    <h3 class="l2">...</h3>
+    <h1>____</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1 col-md-1 col-sm-12">
+        
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-12">
+        <h1><i class="fa-solid fa-minimize jat"></i></h1>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-12">
+        <h1><i class="fa-regular fa-lightbulb jat"></i></h1>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-12">
+        <h1>l</h1>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-12">
+        <h1>k</h1>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-12">
+        <h1>i</h1>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-12">
+
+      </div>
+    </div>
+  </div>
+
+  
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+<!-- Custom CSS to enable nested dropdown and hover effect -->
+<style>
+  .icon-container {
+  border-radius: 50%; 
+  background-color: #ff6900; 
+  width: 90px; 
+  text-align: center;
+  font-weight: 100;
+  height: 90px ; 
+  color: #fcfbfa; 
+  border: 4px solid #ff6900;
+  margin-top: 20px;
+  margin-left: 33%; 
+  padding-top: 15px;
+  transition: background-color 0.5s ease, color 0.5s ease; /* Smooth icon color transition */}
+  .jat{
+
+    border-radius: 50%;
+    background-color: #ff6900;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    padding-top: 22px;
+    border: 6px solid #ff6900;
+    color: white;
+}
+.jat:hover{
+
+border-radius: 50%;
+background-color:white;
+width: 90px;
+height: 90px;
+text-align: center;
+padding-top: 22px;
+color: #ff6900;
+border: 6px solid #ff6900;
+transition: 0.5s;
+}
+  
+  .z1{
+    color: #AEAEAE;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 150px;
+  }
+  .z2{
+    color: white;
+    width: 70%;
+    font-weight: bold;
+  }
+  .z3{
+    background-color:  #ff6900;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+  .z4{
+    padding: 10px 35px; margin: -30px; margin-left: 0px;
+  }
+  .z4:hover{
+    padding: 10px 35px; margin: -30px; margin-left: 0px; background-color: #ff6900;
+    transform: translatey(-10px); color: white;
+    transition: 1s;
+  }
+  .jaat:hover{background-image: url(WhatsApp\ Image\ 2024-10-10\ at\ 01.38.21_0b78e367\ jaat11.jpg); width: 100%;
+    height: 400px;
+    background-size: cover; background-repeat: no-repeat;;}
+.jaat1:hover{background-image: url(WhatsApp\ Image\ 2024-10-10\ at\ 01.38.21_18e481ab.jpg);width: 100%;
+    height: 400px;
+    background-size: cover; background-repeat: no-repeat;
+    margin-left: -30px;
+  }
+  .jaat{
+    background: linear-gradient(90deg,rgba(81, 61, 162, 0.392),rgba(1, 1, 86, 0.527)),url(WhatsApp\ Image\ 2024-10-10\ at\ 01.38.21_0b78e367\ jaat11.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover; background-repeat: no-repeat;
+  
+  }
+  .jaat1{
+    background: linear-gradient(90deg,rgba(57, 75, 119, 0.522),rgba(53, 62, 101, 0.527)),url(WhatsApp\ Image\ 2024-10-10\ at\ 01.38.21_18e481ab.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover; background-repeat: no-repeat;
+    width: 100%;
+    margin-left: -30px;
+  }
+  
+  /* Card Styles */
+.custom-card {
+  border: 1px solid #f2f2f2; /* Default border */
+  transition: transform 0.5s ease, border-color 0.5s ease; /* Smooth animation */
+  height: 220px;
+}
+
+/* Icon Container Styles */
+
+
+
+/* Hover Effect */
+.custom-card:hover {
+  border-color: #ff6900; /* Change border color on hover */
+  transform: translateY(-20px); /* Move card upwards */
+}
+
+.custom-card:hover .icon-container {
+  background-color: #fff; /* Change icon background to white */
+  color: #ff6900; /* Change icon color to #ff6900 */
+  border: 4px solid #ff6900;
+  border-radius: 50%; 
+   
+  width: 90px; 
+  height: 90px;
+  padding-top: 15px;
+  
+  margin-left: 33%; 
+  transition: background-color 0.5s ease, color 0.5s ease; /* Add a border to the icon */
+}
+
+  .see-more-btn {
+      display: inline-flex;
+      align-items: center;
+      background-color: #ff6900;
+      color: white;
+      padding: 14px 30px;
+      font-size: 16px;
+      border: none;
+      border-radius: 24px;
+      text-transform: uppercase;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+    .see-more-btn:hover {
+      background-color: #ff4500;
+    }
+    .see-more-btn i {
+      margin-left: 10px;
+      font-size: 20px;
+    }
+  .dropdown-submenu {
+    position: relative;
+  }
+  .l{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 28px;
+    color: #001659;
+     
+  }
+  .l1{
+    display: flex; justify-content: center;align-items: center; margin-top: -3.2%; color: #ff4500;
+  }
+  .l2{
+    margin-top: 22px;
+  }
+  .l3{
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+  }
+
+  /* Hover effect to change color to yellow for specific items */
+  .nav-item:nth-child(1) .nav-link:hover, /* Home */
+  .nav-item:nth-child(2) .nav-link:hover,
+  .nav-item:nth-child(6) .nav-link:hover,
+  .nav-item:nth-child(7) .nav-link:hover,
+  .nav-item:nth-child(8) .nav-link:hover, /* About Us */
+  .nav-item.dropdown .nav-link:hover { /* Dropdowns */
+    color: #ff6900;
+    border-bottom: 2px solid #ff6900;
+    transition: 1s;
+    
+  }
+  .nav-item:nth-child(1) .nav-link, /* Home */
+  .nav-item:nth-child(2) .nav-link,
+  .nav-item:nth-child(6) .nav-link,
+  .nav-item:nth-child(7) .nav-link,
+  .nav-item:nth-child(8) .nav-link,
+  .nav-item.dropdown .nav-link{
+    border-bottom: 2px solid #ff6a0000;
+    font-size: 18px;
+    color: #003b77;
+   
+  }
+  .nav-item{
+    padding: 0px 10px;
+    font-size: 18px;
+    
+  }
+  .video-container {
+      position: relative;
+      text-align: center;
+      width: 100%;
+    }
+
+    .a1{
+      position: absolute;
+      top: 50%;
+      left: 32%;
+      transform: translate(-50%, -50%);
+      color: #001659;
+      font-size: 55px;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px rgba(63, 63, 63, 0.037);
+      background-color: #fcfbfa;
+      width: 42%;
+      text-align: start;
+      padding-left: 45px;
+      line-height: 55px;
+      padding-top: 20px;
+      
+    }
+
+    .video-buttons {
+      margin-top: 20px;
+    }
+
+    .btn-custom {
+      background-color: #ff6900;
+      color: white;
+      margin: 10px 0px 30px 0px;
+      padding: 10px 20px ;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      text-transform: uppercase;
+      
+    }
+
+    .btn-custom:hover {
+      background-color: #ff4500;
+    }
+
+    /* Ensure video fits within its container */
+    video {
+      width: 100%;
+      height: auto;
+    }
+    @media (max-width: 580px) {
+      .see-more-btn {
+      display: inline-flex;
+      align-items: center;
+      background-color: #ff6900;
+      color: white;
+      padding: 14px 100px;
+      font-size: 16px;
+      border: none;
+      border-radius: 24px;
+      text-transform: uppercase;
+      text-decoration: none;
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+    .z1{margin-top: 10px;}
+    .z2{
+      width: 100%;
+    }
+    .see-more-btn:hover {
+      background-color: #ff4500;
+    }
+    .see-more-btn i {
+      margin-left: 10px;
+      font-size: 20px;
+    }
+      .a1 {
+        font-size: 39px;
+        background-color:#fff; /* Darker background to cover the video */
+        color:#012f5e;;
+        width: 98.4%;
+        height: 377px;
+        top: 95px;
+        left: 2.7px;
+        transform: none;
+        padding-left: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      
+        line-height: 40px;
+      }
+
+      .a2{
+        height: 474px;
+        width: 100%;
+        /* Hide the video on mobile */
+      }
+      .jaat1{
+        margin-left: 0px;
+        margin-top: 25px;
+      }
+
+      .btn-custom {
+        margin-top: -20px;
+        font-size: 22px;
+      }
+      .v1{
+        width: 100%;
+        height: 185px;
+      }
+  
+    }
+    @media (max-width: 180px) {
+     
+      .a1 {
+        font-size: 29px;
+        background-color:#fff; /* Darker background to cover the video */
+        color:#012f5e;;
+        width: 50%;
+        height: 357px;
+        top: 95px;
+        right: 0;
+        transform: none;
+        padding-left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .a2{
+        height: 795px;
+        width: 100%;
+        /* Hide the video on mobile */
+      }
+
+      .btn-custom {
+        margin-top: 20px;
+        font-size: 20px;
+      }
+     
+  
+    }
+    .italic-text {
+      font-style: italic;
+      border-left: 5px solid  #f96d08ed;
+      padding-left: 40px;
+      margin-top: 20px;
+    }
+     .wa {
+      border-bottom: 5px solid  #f66b07ed;
+      
+      width:16%;
+      padding-bottom: 20px;
+    }
+    .about-text {
+      margin-top: 35px;
+      color: #565969;
+      font-weight: 450;
+    }
+</style>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+.navbar-nav li a{
+    padding: 28px 20px 20px 0px;
+    color: #003b77;
+    font-size: 17px;
+}
+.navbar-nav li a:hover{
+    padding: 28px 20px 20px 0px;
+    color: #ff7a00;
+    font-size: 17px;
+}
